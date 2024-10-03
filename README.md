@@ -1,8 +1,8 @@
 
 
-## Simulação de E-commerce - Projeto Next.js
+# Simulação de E-commerce - Projeto Next.js
 
-# Visão Geral - Fase 1
+## Visão Geral - Fase 1
 
 Este projeto é uma simulação de uma plataforma de e-commerce desenvolvida pelos alunos. O foco inicial será na construção da interface do usuário, seguida pelo desenvolvimento do back-end e da camada de dados. O projeto utiliza Next.js como framework e MUI (Material-UI) para os componentes da interface.
 
