@@ -90,3 +90,10 @@ git rebase origin/master
 - Isso evita conflitos antes de enviar sua pull request.
 
 - Commits Claros e Objetivos: Use mensagens de commit descritivas, como "Adicionada validação do formulário de login" ou "Criado componente reutilizável de card de produto".
+
+
+## Conclusão
+
+Este projeto simula um cenário de desenvolvimento real, onde cada grupo contribui independentemente para construir uma aplicação coesa. Certifique-se de colaborar, seguir sua funcionalidade atribuída e respeitar o fluxo de trabalho para garantir uma integração suave entre todas as funcionalidades.
+
+Boa sorte e vamos construir algo incrível juntos!
