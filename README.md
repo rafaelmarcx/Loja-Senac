@@ -54,49 +54,49 @@ O projeto é construído com Next.js e utiliza MUI para estilização e layout d
 
 1. Yan & Vitor Hugo - Autenticação de Usuário com NextAuth.js
 - Descrição: Implementar a autenticação de usuários usando NextAuth.js para simplificar o processo de login e registro.
-### Tarefas:
+ Tarefas:
 - Configurar o NextAuth.js no projeto, utilizando provedores de autenticação (Google, GitHub ou credenciais).
 - Conectar o NextAuth com o MongoDB Atlas para armazenar e gerenciar os dados dos usuários.
 - Adicionar proteção de páginas no front-end, restringindo o acesso a determinadas áreas somente para usuários autenticados.
 
 2. Welker & Tais - API de Produtos
 - Descrição: Desenvolver a API responsável por manipular os dados dos produtos.
-### Tarefas:
+ Tarefas:
 - Criar rotas para GET, POST, PUT e DELETE de produtos.
 - Utilizar o MongoDB Atlas para armazenar, buscar e alterar os dados dos produtos.
 - Testar o componente de card de produto integrado com a API, exibindo dados reais na interface.
 
 3. Vitor & Richard - Listagem e Filtros de Produtos
 - Descrição: Implementar o sistema de listagem e filtragem dos produtos, consumindo a API desenvolvida.
-### Tarefas:
+Tarefas:
 - Consumir a API de produtos e renderizar a listagem na página de produtos.
 - Implementar filtros por categoria, preço e avaliação dos produtos.
 - Conectar a interface de filtro com a API para obter os dados filtrados em tempo real.
 
 4. Lorran & Davi Vale - Navegação e Rotas Protegidas
 - Descrição: Melhorar a navegação da aplicação e implementar rotas protegidas com NextAuth.js, acessíveis apenas para usuários autenticados.
-### Tarefas:
+Tarefas:
 - Configurar o sistema de rotas protegidas usando o NextAuth.js.
 - Proteger rotas como o Carrinho e Checkout, redirecionando usuários não autenticados para a página de login.
 - Testar a navegação integrada com o estado de autenticação dos usuários.
 
 5. Daniel & Erica - API de Checkout e Pedidos
 - Descrição: Desenvolver a API responsável pelo processo de checkout e criação de pedidos.
-### Tarefas:
+Tarefas:
 - Criar rotas de checkout e pedidos (POST para criar pedidos, GET para visualizar pedidos do usuário).
 - Utilizar o MongoDB Atlas para armazenar as informações dos pedidos (produtos, preços e status).
 - Integrar a página de checkout com a API.
 
 6. Raphael & Davi - Página de Detalhes do Produto e Avaliações
 - Descrição: Implementar a funcionalidade de avaliações dos produtos e integrar a API com a página de detalhes do produto.
-### Tarefas:
+Tarefas:
 - Criar a funcionalidade para que os usuários possam visualizar e adicionar avaliações nos produtos.
 - Utilizar o MongoDB Atlas para armazenar e buscar as avaliações.
 - Integrar a API de produtos para exibir dados reais dos produtos na página de detalhes.
 
 7. Augusto, Arthur & Pedro - API do Carrinho de Compras
 - Descrição: Desenvolver a API e a interface do carrinho de compras.
-### Tarefas:
+Tarefas:
 - Criar rotas para manipulação do carrinho de compras (ADD, UPDATE e REMOVE itens).
 - Utilizar o MongoDB Atlas para armazenar e gerenciar os itens do carrinho por usuário.
 - Testar a integração entre a API e o front-end, exibindo os itens do carrinho de cada usuário autenticado.
