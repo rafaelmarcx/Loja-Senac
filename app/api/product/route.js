@@ -17,14 +17,14 @@ export async function GET() {
 
 // Método POST: Cria um novo produto (gerenciado por você)
 export async function POST(req) {
-  const { name, description, price, image } = await req.json();
+  const { name, description, category, price, image } = await req.json();
   await clientPromise;
 
   if (!mongoose.connection.readyState) {
     await mongoose.connect(process.env.MONGODB_URI);
   }
 
-  const newProduct = new Product({ name, description, price, image });
+  const newProduct = new Product({ name, description, category, price, image });
   await newProduct.save();
   return NextResponse.json({ message: 'Product added' }, { status: 201 });
 }
