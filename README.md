@@ -2,7 +2,7 @@
 
 # Simulação de E-commerce - Projeto Next.js
 
-# Fase 2: Desenvolvimento do Back-end e Integração de Dados
+## Fase 2: Desenvolvimento do Back-end e Integração de Dados
 
 ## Objetivos:
 
